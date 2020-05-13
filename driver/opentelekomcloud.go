@@ -22,10 +22,10 @@ import (
 
 const (
 	dockerPort           = 2376
-	driverName           = "otc"
+	driverName           = "otc-v2"
 	defaultSecurityGroup = "docker-machine-grp"
-	defaultAZ            = "eu-de-03"
-	defaultFlavor        = "s2.large.2"
+	defaultAZ            = "eu-de-01"
+	defaultFlavor        = "s2.large.4"
 	defaultImage         = "Standard_Ubuntu_18.04_latest"
 	defaultSSHUser       = "ubuntu"
 	defaultSSHPort       = 22
@@ -33,8 +33,8 @@ const (
 	defaultAuthURL       = "https://iam.eu-de.otc.t-systems.com/v3"
 	defaultVpcName       = "vpc-docker-machine"
 	defaultSubnetName    = "subnet-docker-machine"
-	defaultVolumeSize    = 40
-	defaultVolumeType    = "SATA"
+	defaultVolumeSize    = 200
+	defaultVolumeType    = "SSD"
 	k8sGroupName         = "sg-k8s"
 )
 
